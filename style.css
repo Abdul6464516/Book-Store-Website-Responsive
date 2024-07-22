@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(165, 163, 163);
+    height: 50px;
+    
+}
+
+header ul li, header ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+
+}
