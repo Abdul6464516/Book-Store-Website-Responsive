@@ -20,3 +20,8 @@ header ul li, header ul li a{
     font-weight: bold;
 
 }
+.home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
