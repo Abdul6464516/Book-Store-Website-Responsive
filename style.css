@@ -17,8 +17,13 @@ header #logo{
     
 }
 #search{
-    background-image: url(./images/search1.png);
     border-radius: 10px;
+    background-image: url('./images/search1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-size: contain;
+    
 }
 header ul li, header ul li a{
     text-decoration: none;
@@ -56,11 +61,12 @@ header ul li, header ul li a{
 
 .bestSeller{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33.33% 33.3% 33.3%;
     /* border: 1px solid black; */
     margin: 40px;
     padding: 20px;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 /* .bestSellerItem{
 
@@ -73,7 +79,32 @@ margin-left: 10px;
 .books{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    margin:40px;
-
-
+    margin:60px;
+    /* margin-left: 100px; */
+ 
+}
+.contact{
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.undeline{
+    text-decoration:underline;
+    text-decoration: solid 2px black;
+}
+.icons{
+    border-radius: 50%;
+    width: 60px;
+    padding: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.footerItem{
+    margin-left: 40px;
+    margin-top: 20px;
 }
