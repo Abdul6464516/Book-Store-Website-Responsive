@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    
 }
 
 header ul{
@@ -30,7 +30,7 @@ header ul li, header ul li a{
     text-decoration: none;
     list-style-type: none;
     padding: 10px;
-    color:black;
+    color:rgb(32, 31, 31);
     font-weight: bold;
 
 }
@@ -70,10 +70,14 @@ header ul li, header ul li a{
     margin-left: 50px;
 }
 .bestSellerItem{
-
+    background-image: url('./images/bs1.jpg');
    margin-bottom: 40px;
    /* margin: 20px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    width:60%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #books-heading{
 margin-left: 10px;
@@ -106,6 +110,17 @@ button{
     text-decoration:underline;
     text-decoration: solid 2px black;
 }
+
+.booksItems{
+    background-image: url('./images/bookforreading2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 300px;
+    margin-bottom: 40px;
+
+}
+
 .icons{
     border-radius: 50%;
     width: 60px;
@@ -136,12 +151,10 @@ button{
     }
     .books{
         grid-template-columns: 100%;
-        margin: 0 auto;
-        padding: 0;
+        
     }
     .footer{
         grid-template-columns: 100%;
-        margin: 0 auto;
-        padding: 0;
+        
     }
 }
