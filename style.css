@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    position: sticky;
+    gap: 0;
     
 }
-
 header ul{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(245, 243, 243);
     height: 50px;
+
     
 }
 header #logo{
@@ -24,7 +29,9 @@ header #logo{
     padding-right: 10px;
     padding-right: 20px;
     background-size: contain;
-    
+    height: 50px;
+    width: 320px;
+    margin-top: 20px;
 }
 header ul li, header ul li a{
     text-decoration: none;
@@ -47,6 +54,12 @@ header ul li, header ul li a{
     margin-left: 100px;
     padding: 20px;
     font-size: 30px;
+}
+.heading-top{
+    text-align: center;
+}
+.heading-top h1,.heading-top p{
+    margin-bottom: 20px;
 }
 #b-sellers{
     margin-left: 10px;
