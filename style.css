@@ -126,19 +126,23 @@ margin-left: 10px;
 
 }
 .description h4{
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(43, 38, 38);
     margin-top: 10px;
     
     
 }
 button{
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(43, 38, 38);
     color: white;
     border-radius: 4px;
     padding: 4px;
     text-align: center;
     margin: 10px;
     margin-left: 150px;
+}
+button:hover{
+    background-color: transparent;
+    color: black;
 }
 .contact{
     text-align: center;
@@ -148,7 +152,7 @@ button{
     margin-bottom: 20px;
     height: 200px;
 }
-.undeline{
+.footerItem .undeline{
     text-decoration:underline;
     text-decoration: solid 2px black;
 }
