@@ -209,7 +209,15 @@ footer h4{
     text-align: center;
     padding: 30px;
 }
-
+@media (max-width:1200px) {
+    .bestSeller{
+        grid-template-columns: 50% 50%;
+    }
+    .books{
+        grid-template-columns: 50% 50%;
+    }
+    
+}
 @media(max-width:900px){
     .home{
         grid-template-columns: 100%;
